@@ -16,15 +16,15 @@ title: Melbourne
       function initialize() {
         var mapCanvas = document.getElementById('map_canvas');
         var mapOptions = {
-          center: new google.maps.LatLng(-33.863001,151.208787),
-          zoom: 8,
+          center: new google.maps.LatLng(-37.816683999999995, 144.96396199999998),
+          zoom: 14,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         }
         var map = new google.maps.Map(mapCanvas, mapOptions)
         var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(-33.863001,151.208787),
+            position: new google.maps.LatLng(-37.816683999999995, 144.96396199999998),
             map: map,
-            title: 'Sydney'
+            title: 'ThoughtWorks Melbourne'
         });
 
       }
